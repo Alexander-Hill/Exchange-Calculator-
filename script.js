@@ -25,7 +25,7 @@ function CheckThisOut() {
 
 
 // we should go grab the API
- fetch(`https://v6.exchangerate-api.com/v6/1ef7d48bd5e22f0b6bf2f2b4/latest/USD`)
+ fetch(`https://v6.exchangerate-api.com/v6/1ef7d48bd5e22f0b6bf2f2b4/latest/${selectOption1}`)
  .then(res => res.json())
  .then(data => {
 
