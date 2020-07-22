@@ -1,0 +1,75 @@
+:root {
+  --primry-color: #5fbaa7
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #758AA2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+
+}
+
+
+
+h1 {
+  color: var(--primry-color);
+
+}
+
+
+
+p{
+  text-align: center;
+}
+#amount-one{
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  font-size: 17px;
+}
+#amount-two{
+  font-size: 17px;
+  text-align: center;
+  
+  border-radius: 20px 20px 20px 20px;
+}
+.btn{
+  color: white;
+  background:  var(--primry-color);
+  cursor: pointer;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 12px;
+  padding: 5px 12px;
+
+}
+
+
+.currency {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.rate{
+  display: inline;
+  margin-left: 10%;
+}
+
+.currency select {
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px 20px 10px 10px;
+  appearance: none;
+  margin-right: 20px;
+
+
+}
